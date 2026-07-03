@@ -1,0 +1,11 @@
+# Dependencies & build output
+node_modules
+dist
+.vercel
+
+# OS / editor noise
+.DS_Store
+
+# Personal machine-local Claude Code overrides (never committed).
+# The shared, cloneable config lives in .claude/settings.json instead.
+.claude/settings.local.json
