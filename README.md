@@ -1,4 +1,4 @@
-# rey-learn-to-code
+# starter-pack
 
 A personal **starter template + setup runbook** for Claude Code projects.
 
