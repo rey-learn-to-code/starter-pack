@@ -11,14 +11,14 @@ Goal: spin up a new project in seconds. Clone this repo (or use it as a GitHub t
 **Option A — use as a GitHub template (recommended)**
 ```bash
 # On GitHub: click "Use this template" → create new repo, OR:
-gh repo create my-new-project --template <your-gh-username>/rey-learn-to-code --private --clone
+gh repo create my-new-project --template rey-learn-to-code/starter-pack --private --clone
 cd my-new-project
 # Open in Claude Code → done. Plugins auto-install on first launch.
 ```
 
 **Option B — bolt the config onto an existing project**
 ```bash
-cp -r rey-learn-to-code/.claude rey-learn-to-code/CLAUDE.md ./my-existing-project/
+cp -r starter-pack/.claude starter-pack/CLAUDE.md ./my-existing-project/
 ```
 
 That is the entire per-project setup. Everything else is one-time, per machine.
@@ -28,7 +28,7 @@ That is the entire per-project setup. Everything else is one-time, per machine.
 ## What's inside
 
 ```
-rey-learn-to-code/
+starter-pack/
 ├── README.md              # this runbook
 ├── CLAUDE.md              # behavioral guidelines the assistant follows (Karpathy-adapted)
 ├── .gitignore             # sensible defaults + ignores machine-local Claude settings
